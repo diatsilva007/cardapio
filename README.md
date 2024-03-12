@@ -1,4 +1,4 @@
- <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-image/devburguer.png" alt="Dev Burguer Project" width="1280" height="350">
+ <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-files/images/devburguer.png" alt="Dev Burguer Project" width="1280" height="350">
  
  <h1 align="center"> 📂 Projeto Hamburgueria 🍔 </h1>
 
