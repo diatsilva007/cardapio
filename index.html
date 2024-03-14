@@ -162,13 +162,13 @@
             </div>
 
             <!-- Grid Bebidas -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16" id="manu">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16" id="menu">
 
             <!-- Bebida ítem -->
             <div class="flex gap-2 w-full">
                 <img src="./assets/refri-1.png" 
                 alt="Coca lata" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">  
 
             <div class="w-full">
                 <p class="font-bold">Coca lata 350ml</p>
@@ -188,45 +188,44 @@
             </div>
             <!-- Fim Bebida ítem -->
 
-            <!-- Grid Bebidas -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16" id="manu">
+            <!-- Bebida ítem -->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/refri-2.png" 
+                alt="Guaraná lata" 
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">  
 
-                <!-- Bebida ítem -->
-                <div class="flex gap-2 w-full">
-                    <img src="./assets/refri-2.png" 
-                    alt="Guaraná lata" 
-                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-    
-                <div class="w-full">
-                    <p class="font-bold">Guaraná lata 350ml</p>
-    
-                    <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 6</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                                data-name="Guaraná lata"
-                                data-price="6"
-                        >
-                            <i class="fa fa-cart-plus text-lg text-white"></i> 
-                        </button>
-                    </div>
-    
-                </div>
-    
-                </div>
-                <!-- Fim Bebida ítem -->
+            <div class="w-full">
+                <p class="font-bold">Guaraná lata 350ml</p>
 
-        </div>
-        <!--Fim Grid Bebidas -->
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 6</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="Guaraná lata"
+                            data-price="6"
+                    >
+                        <i class="fa fa-cart-plus text-lg text-white"></i> 
+                    </button>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- Fim Bebida ítem -->
 
         </div>
     <!-- Fim menu -->
 
     <!-- Modal cart -->
-        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+        <div 
+            class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+            id="cart-modal"
+        
+        >
+
             <div class="bg-white p-5 rounded-md min-w-[90%] md:min-[600px]:">
                 <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
 
-                <div id="cart-item" class="flex justify-between mb-2 flex-col"></div>
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
 
                 <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
 
@@ -263,6 +262,8 @@
             </button>
         </footer>
     <!-- Fim Button Cart Footer -->
+
+    <script src="script.js"></script>
 
 </body>
 </html>
