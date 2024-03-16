@@ -101,7 +101,7 @@ function updatecartModal(){
 
 }
 
-// Função para remover o item do carrinho
+    // Função para remover o item do carrinho
     cartItemsContainer.addEventListener("click", function (event) {
         if(event.target.classList.contains("remove-from-cart-btn")) {
             const name = event.target.getAttribute("data-name")
@@ -138,11 +138,67 @@ function updatecartModal(){
         }
 
     })
-    
+
+    // Finalizar pedido
     checkoutBtn.addEventListener("click", function() {
+
+        const isOpen = checkRestaurantOpen();
+        if(!isOpen) {
+            
+            Toastify({
+                text: "Ops, o restaurante está fechado!",
+                duration: 3000,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                position: "right", // `left`, `center` or `right`
+                stopOnFocus: true, // Impede que o brinde seja descartado ao passar o mouse
+                style: {
+                  background: "#ef4444",
+                },
+              }).showToast();
+
+           return;
+        }
+
         if(cart.length === 0) return;
         if(addressInput.value === "") {
             addressWarn.classList.remove("hidden")
             addressInput.classList.add("border-red-500")
+            return;
         }
+
+        // Enviar o pedido para api whatsapp
+        const cartItems = cart.map((item) => {
+            return (
+                ` ${item.name} Quantidade:  (${item.quantity}) Preço: R$${item.price} |`
+            )
+        }) .join("")
+
+        const message = encodeURIComponent(cartItems)
+        const phone = "+5535997714779"
+
+        window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
+
+        cart = [];
+        updatecartModal();
+
     })
+
+     // Verificar a hora e manipular o card horário
+    function checkRestaurantOpen() {
+        const data = new Date();
+        const hora = data.getHours();
+        return hora >= 18 && hora < 22;
+        // True, restaurante está aberto
+    }
+
+    const spanItem = document.getElementById("date-span")
+    const isOpen = checkRestaurantOpen();
+
+    if(isOpen) {
+        spanItem.classList.remove("bg-red-500");
+        spanItem.classList.add("bg-green-600")  
+    }else{
+        spanItem.classList.remove("bg-green-600")
+        spanItem.classList.add("bg-red-500")
+    }
