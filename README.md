@@ -8,7 +8,7 @@
 
  **Podemos também ver os itens do carrinho, removê-los caso cliente não queira mais determinado item, também é possível digitar o endereço e finalizar o pedido, após finalizar o pedido o sistema levará para a api do whatsapp web todas as informações do carrinho, como: Endereço, total, quantidade e quais são os produtos, levando diretamente todas essas informações para o whatsapp web do número da hamburgueria.**
 
- <h1 align="left"> ➡️ Totalmente responsivo 🖥️📲 </h1> 
+ <h1 align="left"> ➡️ Totalmente responsivo 🖥️ + 📲 </h1> 
  
  <h1 align="left"> 👨‍💻 Tech's usadas no projeto 📁 </h1>
 
