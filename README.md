@@ -1,12 +1,16 @@
- <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-files/images/devburguer.png" alt="Dev Burguer Project" width="1280" height="350">
+ <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-files/images/devburguer.png" alt="Dev Burguer Project" width="1280" height="300">
  
- <h1 align="center"> 📂 Projeto Hamburgueria 🍔 </h1>
+ <h1 align="center"> 📂 Projeto - Dev Burger Hamburgueria 🍔 </h1>
 
  <h1 align="left"> ⬇️ Sobre </h1>
 
-**🚀 Projeto completo do zero utilizando HTML, CSS, TailwindCSS e JavaScript. Mostro neste projeto as técnicas essenciais de desenvolvimento web, criando uma aplicação dinâmica e responsiva.**
+**O projeto mostrará o nome da Hamburgueria que iremos escolher, o endereço e o horário de funcionamento ressaltando com a cor "verde" 	para "aberto" e "vermelho" para fechado (quando fechado, mostrará um alerta na cor vermelha no canto superior direito da tela com a 	seguinte mensagem: "Ops, o restaurante está fechado!"). Também mostrará os produtos dentro do cardápio dentro do menu, podendo 	escolher os itens e adicioná-los ao carrinho.**
 
- <h1 align="left"> 👨‍💻 Tech's </h1>
+ **Podemos também ver os itens do carrinho, removê-los caso cliente não queira mais determinado item, também é possível digitar o endereço e finalizar o pedido, após finalizar o pedido o sistema levará para a api do whatsapp web todas as informações do carrinho, como: Endereço, total, quantidade e quais são os produtos, levando diretamente todas essas informações para o whatsapp web do número da hamburgueria.**
+
+ <h1 align="left"> ➡️ Totalmente responsivo 🖥️📲 </h1> 
+ 
+ <h1 align="left"> 👨‍💻 Tech's usadas no projeto 📁 </h1>
 
  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer" align="center"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
  <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
@@ -17,12 +21,7 @@
 | [<img src="https://avatars.githubusercontent.com/u/143373573?v=4" width="100" height="100"><br><sub>Diogo Ataide</sub>](https://github.com/diatsilva007)
 | :---: |
 
- <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
- 
- <h4 align="center">    
- :construction:  Projeto em construção  :construction:
- </h4>
-
+ <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/></p>
  
 
 
