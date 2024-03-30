@@ -1,11 +1,10 @@
- <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-files/images/devburguer.png" alt="Dev Burguer Project" width="1280" height="300">
- 
  <h1 align="center"> 📂 Projeto - Dev; 👨‍💻 Burger 🍔 </h1>
-
-
+ 
+ <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-files/images/Dev%3BBurguer.gif" alt="Dev Burguer Project" width="1280" height="440">
+ 
  <h1 align="left"> ⬇️ Sobre </h1>
 
-**O projeto mostrará o nome da Hamburgueria que iremos escolher, o endereço e o horário de funcionamento ressaltando com a cor "verde" 	para "aberto" e "vermelho" para fechado (quando fechado, mostrará um alerta na cor vermelha no canto superior direito da tela com a 	seguinte mensagem: "Ops, o restaurante está fechado!"). Também mostrará os produtos dentro do cardápio dentro do menu, podendo 	escolher os itens e adicioná-los ao carrinho.**
+**O projeto mostrará o nome da Hamburgueria, o endereço e o horário de funcionamento ressaltando com a cor "verde" 	para "aberto" e "vermelho" para fechado (quando fechado, mostrará um alerta na cor vermelha no canto superior direito da tela com a seguinte mensagem: "Ops, o restaurante está fechado!"). Também mostrará os produtos dentro do cardápio dentro do menu, podendo 	escolher os itens e adicioná-los ao carrinho.**
 
  **Podemos também ver os itens do carrinho, removê-los caso cliente não queira mais determinado item, também é possível digitar o endereço e finalizar o pedido, após finalizar o pedido o sistema levará para a api do whatsapp web todas as informações do carrinho, como: Endereço, total, quantidade e quais são os produtos, levando diretamente todas essas informações para o whatsapp web do número da hamburgueria.**
 
