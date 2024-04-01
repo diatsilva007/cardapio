@@ -1,4 +1,4 @@
- <h1 align="center"> 📂 Projeto - Dev; 👨‍💻 Burger 🍔 </h1>
+ <h1 align="center"> 📂 Projeto - Dev; 👨‍💻 Burguer 🍔 </h1>
  
  <img src="https://github.com/diatsilva007/cardapio/blob/main/readme-files/images/Dev%3BBurguer.gif" alt="Dev Burguer Project" width="1280" height="440">
  
